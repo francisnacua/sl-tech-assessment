@@ -1,0 +1,29 @@
+// @import url("../colors.scss");
+$primary: #191919;
+$secondary: #2D4263;
+$tertiary: #C84B31;
+$text-primary: #ECDBBA;
+
+$primary-grey: #73777B;
+$secondary-grey: #4A4A4A;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary
+);
+
+body {
+    font-size: 16px;
+    background-color: $primary-grey;
+    color: $text-primary;
+}
+.main-container {
+    background-color: $primary;
+
+    .playground {
+        .image-tagger {
+        }
+    }
+
+}
+
